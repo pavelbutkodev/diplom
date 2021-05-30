@@ -1,0 +1,59 @@
+.wrapper-create-temp {
+	max-width: calc(1600px - 253px);
+	width: 100%;
+	padding: 48px 35px;
+
+	.create-temp-panel {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		p {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 16px;
+			color: #7DCC9B;
+
+			img {
+				margin-right: 8px;
+				width: 12.5px;
+				height: 8px;
+			}
+		}
+
+		.create-temp-buttons {
+			.button1 {
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 18px;
+				color: #588cbb;
+				width: 147px;
+				height: 50px;
+				border: 1px solid #588cbb;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin-right: 24px;
+			}
+
+			.button2 {
+
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 18px;
+				color: #FFFFFF;
+				width: 210px;
+				height: 50px;
+				background: #588cbb;
+				border-radius: 50px;
+			}
+		}
+	}
+
+	.main-doc {
+		margin-top: 30px;
+		background: #FFFFFF;
+	}
+}
